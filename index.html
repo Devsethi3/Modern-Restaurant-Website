@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Wesbite | Project</title>
+
+    <!-- =================================================================
+                            Link Custom CSS File
+    ================================================================== -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- =================================================================
+                            Remix-Icon CDN
+    ================================================================== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- =================================================================
+                                 SWIPER CDN CSS
+    ================================================================== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- ================================================ HEADER ================================================ -->
+    <header class="header" id="header">
+        <div class="header-top">
+            <p>Get 30% extra <span>Discount</span> and <span>Free Delivery</span> on your first order.</p>
+        </div>
+        <nav class="nav container">
+            <a href="index.html" class="nav-logo">
+                <img src="assets/images/logo.png" alt="nav logo" width="130" class="nav-logo-img">
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="logo-mobile">
+                    <img src="assets/images/logo-dark.png" alt="nav logo" class="logo-mobile-img">
+                </a>
+
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reservation" class="nav-link">Reservation</a>
+                    </li>
+                </ul>
+
+                <div class="nav-close" id="nav-close">
+                    <i class="ri-close-circle-line"></i>
+                </div>
+            </div>
+
+            <div class="nav-btns">
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+                <a href="#reservation" class="button reservation-btn">Reservation A Table</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================================================ MAIN ================================================ -->
+    <main class="main">
+        <!-- ================================================ HOME SECTION STARTS ================================================ -->
+        <section class="home" id="home">
+            <div class="swiper home-swiper container">
+                <div class="swiper-wrapper">
+                    <!-- HOME SWIPER 1 -->
+                    <div class="swiper-slide home-content griditem" id="grid">
+                        <div class="home-data">
+                            <h3 class="home-subtitle">Fastest Delivery & Easy Pickup</h3>
+                            <h1 class="home-title">Kings Burger</h1>
+                            <p class="home-description">Good food starts with good ingredients. We only bring you the
+                                best.</p>
+                            <a href="#menu" class="button">View Our Menu</a>
+                        </div>
+                        <img src="assets/images/slide-1.png" alt="home-image" class="home-img">
+                    </div>
+
+                    <!-- HOME SWIPER 2 -->
+                    <div class="swiper-slide home-content griditem" id="grid">
+                        <div class="home-data">
+                            <h3 class="home-subtitle">Fastest Delivery & Easy Pickup</h3>
+                            <h1 class="home-title">Delicious Food</h1>
+                            <p class="home-description">Good food starts with good ingredients. We only bring you the
+                                best.</p>
+                            <a href="#menu" class="button">View Our Menu</a>
+                        </div>
+                        <img src="assets/images/slide-2.png" alt="home-image" class="home-img">
+                    </div>
+
+                    <!-- HOME SWIPER 3 -->
+                    <div class="swiper-slide home-content griditem" id="grid">
+                        <div class="home-data">
+                            <h3 class="home-subtitle">Fastest Delivery & Easy Pickup</h3>
+                            <h1 class="home-title">Food Platter</h1>
+                            <p class="home-description">Good food starts with good ingredients. We only bring you the
+                                best.</p>
+                            <a href="#menu" class="button">View Our Menu</a>
+                        </div>
+                        <img src="assets/images/slide-3.png" alt="home-image" class="home-img">
+                    </div>
+
+                    <!-- HOME SWIPER 4 -->
+                    <div class="swiper-slide home-content griditem" id="grid">
+                        <div class="home-data">
+                            <h3 class="home-subtitle">Fastest Delivery & Easy Pickup</h3>
+                            <h1 class="home-title">Garlic Pizza</h1>
+                            <p class="home-description">Good food starts with good ingredients. We only bring you the
+                                best.</p>
+                            <a href="#menu" class="button">View Our Menu</a>
+                        </div>
+                        <img src="assets/images/slide-4.png" alt="home-image" class="home-img">
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next" id="arrow">
+                    <i class="ri-arrow-right-line"></i>
+                </div>
+                <div class="swiper-button-prev" id="arrow">
+                    <i class="ri-arrow-left-line"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================ ABOUT SECTION STARTS ================================================ -->
+        <section class="about container section" id="about">
+            <div class="section-container" id="grid">
+                <div class="section-group">
+                    <span class="section-subtitle"> ABOUT THE FOOD RESTAURANT </span>
+                    <h2 class="section-title">New Ground with Dishes to be Enjoyed</h2>
+                </div>
+                <div class="section-group">
+                    <p class="section-description">
+                        Embark on a culinary adventure with our innovative menu, breaking new ground in flavors and
+                        presentation. Our dishes redefine gastronomic delight, blending tradition with modern flair.
+                        From delectable starters to indulgent mains.
+                    </p>
+                    <div class="section-data">
+                        <img src="assets/images/girl.jpg" alt="section-img" class="section-img">
+                        <div>
+                            <h3 class="section-data-title">Willimes James</h3>
+                            <p class="section-data-description">Director and Chief Operations Officer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-container" id="grid">
+                <div class="about-item">
+                    <img src="assets/images/restaurant-1.jpg" alt="" class="about-img">
+                    <div class="about-top">
+                        <div class="about-top-title">Restaurant</div>
+                    </div>
+                    <div class="about-hover">
+                        <div class="about-hover-data">
+                            <h3 class="about-hover-title">Restaurant</h3>
+                            <p class="about-description">
+                                Savor perfection at our restaurant: a fusion of flavors, impeccable service, and a
+                                dining oasis awaits
+                            </p>
+                            <a href="#reservation" class="button about-btn">Reserve a Table</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-item">
+                    <img src="assets/images/restaurant-2.jpg" alt="" class="about-img">
+                    <div class="about-top">
+                        <div class="about-top-title">Coctail Bar</div>
+                    </div>
+                    <div class="about-hover">
+                        <div class="about-hover-data">
+                            <h3 class="about-hover-title">Coctail Bar</h3>
+                            <p class="about-description">
+                                Sip, savor, and celebrate at our Cocktail Bar. Immerse yourself in crafted perfection,
+                                where every drink is an experience!
+                            </p>
+                            <a href="#reservation" class="button about-btn">Reserve a Table</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-item">
+                    <img src="assets/images/restaurant-3.jpg" alt="" class="about-img">
+                    <div class="about-top">
+                        <div class="about-top-title">Private Dining</div>
+                    </div>
+                    <div class="about-hover">
+                        <div class="about-hover-data">
+                            <h3 class="about-hover-title">Private Dining</h3>
+                            <p class="about-description">
+                                Elevate your moments with private dining where exceptional ambiance meets
+                                personalized culinary perfection.
+                            </p>
+                            <a href="#reservation" class="button about-btn">Reserve a Table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================ MENU SECTION STARTS ================================================ -->
+        <section class="menu menu-one" id="menu">
+            <h2 class="section-title title-center">Fast Food Menus</h2>
+
+            <div class="menu-container container" id="grid">
+                <div class="menu-group" id="grid">
+                    <div class="menu-item">
+                        <div class="menu-img-wrapper">
+                            <img src="assets/images/food-img-1.png" alt="" class="menu-img">
+                        </div>
+
+                        <div class="menu-data">
+                            <h3 class="menu-title">ShroomBacon Burger</h3>
+                            <span class="menu-price">$24.00</span>
+                            <ul class="menu-rating">
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                            </ul>
+                            <a href="#" class="menu-btn">
+                                <i class="ri-shopping-bag-line"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-img-wrapper">
+                            <img src="assets/images/food-img-2.png" alt="" class="menu-img">
+                        </div>
+
+                        <div class="menu-data">
+                            <h3 class="menu-title">Zinger Double Burger</h3>
+                            <span class="menu-price">$28.00</span>
+                            <ul class="menu-rating">
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                            </ul>
+                            <a href="#" class="menu-btn">
+                                <i class="ri-shopping-bag-line"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-img-wrapper">
+                            <img src="assets/images/food-img-3.png" alt="" class="menu-img">
+                        </div>
+
+                        <div class="menu-data">
+                            <h3 class="menu-title">Black Pepper Burger</h3>
+                            <span class="menu-price">$22.00</span>
+                            <ul class="menu-rating">
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                            </ul>
+                            <a href="#" class="menu-btn">
+                                <i class="ri-shopping-bag-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-group" id="grid">
+                    <div class="menu-item">
+                        <div class="menu-img-wrapper">
+                            <img src="assets/images/food-img-4.png" alt="" class="menu-img">
+                        </div>
+
+                        <div class="menu-data">
+                            <h3 class="menu-title">Margherita Pizza</h3>
+                            <span class="menu-price">$23.00</span>
+                            <ul class="menu-rating">
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                            </ul>
+                            <a href="#" class="menu-btn">
+                                <i class="ri-shopping-bag-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="opening">
+                        <h3 class="opening-title">OPENING TIMES</h3>
+
+                        <dl class="opening-list">
+                            <dt>Monday</dt>
+                            <dd>17:00 to 23:00</dd>
+                            <dt>Tuesday</dt>
+                            <dd>17:00 to 23:00</dd>
+                            <dt>Wednesday</dt>
+                            <dd>17:00 to 23:00</dd>
+                            <dt>Thursday</dt>
+                            <dd>17:00 to 23:00</dd>
+                            <dt>Friday</dt>
+                            <dd>16:00 to 24:00</dd>
+                            <dt class="close">Sat-Sun</dt>
+                            <dd class="close">Closed</dd>
+                        </dl>
+                        <div class="opening-data">
+                            <a href="callto: +182344639">
+                                <h3>+18 234 4639</h3>
+                            </a>
+                            <h4 class="opening-description">Avenue New Town 124 United States</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-group" id="grid">
+                    <div class="menu-item">
+                        <div class="menu-img-wrapper">
+                            <img src="assets/images/food-img-5.png" alt="" class="menu-img">
+                        </div>
+
+                        <div class="menu-data">
+                            <h3 class="menu-title">Crispy Chicken Burger</h3>
+                            <span class="menu-price">$18.00</span>
+                            <ul class="menu-rating">
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                            </ul>
+                            <a href="#" class="menu-btn">
+                                <i class="ri-shopping-bag-line"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-img-wrapper">
+                            <img src="assets/images/food-img-6.png" alt="" class="menu-img">
+                        </div>
+
+                        <div class="menu-data">
+                            <h3 class="menu-title">BBQ Chicken Pizza</h3>
+                            <span class="menu-price">$21.00</span>
+                            <ul class="menu-rating">
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                            </ul>
+                            <a href="#" class="menu-btn">
+                                <i class="ri-shopping-bag-line"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-img-wrapper">
+                            <img src="assets/images/food-img-7.png" alt="" class="menu-img">
+                        </div>
+
+                        <div class="menu-data">
+                            <h3 class="menu-title">Pepperoni Classic Pizza</h3>
+                            <span class="menu-price">$19.00</span>
+                            <ul class="menu-rating">
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                                <li><i class="ri-star-fill"></i></li>
+                            </ul>
+                            <a href="#" class="menu-btn">
+                                <i class="ri-shopping-bag-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================ SERVICES SECTION STARTS ================================================ -->
+        <section class="services container section" id="services">
+            <div class="section-container" id="grid">
+                <div class="section-group">
+                    <span class="section-subtitle">BEST SOLUTIONS</span>
+                    <h2 class="section-title">We Provide Best Services</h2>
+                </div>
+
+                <div class="section-group">
+                    <p class="section-description">
+                        Discover excellence with our top-tier services. We pride ourselves on delivering unparalleled
+                        solutions tailored to your needs. From cutting-edge technology to unmatched expertise, we
+                        redefine excellence. Join a community that values quality, innovation, and customer
+                        satisfaction. Your journey to unparalleled services.
+                    </p>
+                </div>
+            </div>
+            <div class="services-container" id="grid">
+                <div class="services-item">
+                    <div class="services-img-wrapper">
+                        <img src="assets/images/services-1.svg" alt="" class="services-img">
+                    </div>
+
+                    <h3 class="services-title">Afternoon Tea</h3>
+                    <p class="services-description">
+                        Our Afternoon Tea, a symphony of flavors served with sophistication.</p>
+                </div>
+
+                <div class="services-item">
+                    <div class="services-img-wrapper">
+                        <img src="assets/images/services-2.svg" alt="" class="services-img">
+                    </div>
+
+                    <h3 class="services-title">Takeaway & Delivery</h3>
+                    <p class="services-description">
+                        Swift delivery—experience convenience with our delectable takeaway service.</p>
+                </div>
+
+                <div class="services-item">
+                    <div class="services-img-wrapper">
+                        <img src="assets/images/services-3.svg" alt="" class="services-img">
+                    </div>
+
+                    <h3 class="services-title">Wine & Cocktails</h3>
+                    <p class="services-description">Sip sophistication with our exquisite wines and crafted cocktails.
+                    </p>
+                </div>
+
+                <div class="services-item">
+                    <div class="services-img-wrapper">
+                        <img src="assets/images/services-4.svg" alt="" class="services-img">
+                    </div>
+
+                    <h3 class="services-title">Alfresco Dining</h3>
+                    <p class="services-description">Indulge outdoors: Savory bites, scenic views, unforgettable moments
+                        await!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================ DEALS SECTION STARTS ================================================ -->
+        <section class="deals section container">
+            <span class="section-subtitle">WEEKLY SPECIAL</span>
+            <h2 class="section-title">Best Seller Deals</h2>
+
+            <div class="deals-container" id="grid">
+                <div class="tab-buttons">
+                    <span class="tab-btn active-tab" data-target="#vegetables">Fish Vegetables</span>
+                    <span class="tab-btn" data-target="#vegas">Buffet Vegas</span>
+                    <span class="tab-btn" data-target="#grilled">Fish Fry Grilled</span>
+                    <span class="tab-btn" data-target="#snacks">Tasty Snacks</span>
+                    <span class="tab-btn" data-target="#chicken">Roasted Chicken</span>
+                </div>
+
+                <div class="tab-items">
+                    <div class="tab-item active-tab" content id="vegetables">
+                        <h3 class="deals-title">Fish With Vegetables</h3>
+                        <ul class="quality-list">
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Fresh & Tasty</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Best in Organic Food</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">All Fresh Ingredients</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Best For Your Health</h4>
+                            </li>
+                        </ul>
+                        <div class="deals-price">
+                            <p><span>$</span>10.85</p>
+                            <del>$14.85</del>
+                        </div>
+                        <a href="#" class="button">Add To Art</a>
+                    </div>
+
+                    <div class="tab-item" content id="vegas">
+                        <h3 class="deals-title">Buffet Vegas</h3>
+                        <ul class="quality-list">
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Fresh & Tasty</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Best in Organic Food</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">All Fresh Ingredients</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Best For Your Health</h4>
+                            </li>
+                        </ul>
+                        <div class="deals-price">
+                            <p><span>$</span>16.85</p>
+                            <del>$20.85</del>
+                        </div>
+                        <a href="#" class="button">Add To Art</a>
+                    </div>
+
+                    <div class="tab-item" content id="grilled">
+                        <h3 class="deals-title">Fish Fry Grilled</h3>
+                        <ul class="quality-list">
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Fresh & Tasty</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Best in Organic Food</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">All Fresh Ingredients</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Best For Your Health</h4>
+                            </li>
+                        </ul>
+                        <div class="deals-price">
+                            <p><span>$</span>18.85</p>
+                            <del>$25.85</del>
+                        </div>
+                        <a href="#" class="button">Add To Art</a>
+                    </div>
+
+                    <div class="tab-item" content id="snacks">
+                        <h3 class="deals-title">Tasty Snacks</h3>
+                        <ul class="quality-list">
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Fresh & Tasty</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Best in Organic Food</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">All Fresh Ingredients</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Best For Your Health</h4>
+                            </li>
+                        </ul>
+                        <div class="deals-price">
+                            <p><span>$</span>11.85</p>
+                            <del>$15.85</del>
+                        </div>
+                        <a href="#" class="button">Add To Art</a>
+                    </div>
+
+                    <div class="tab-item" content id="chicken">
+                        <h3 class="deals-title">Roasted Chicken</h3>
+                        <ul class="quality-list">
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Fresh & Tasty</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Best in Organic Food</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">All Fresh Ingredients</h4>
+                            </li>
+                            <li class="list-item">
+                                <img src="assets/images/check.png" alt="" class="item-img">
+                                <h4 class="list-title">Best For Your Health</h4>
+                            </li>
+                        </ul>
+                        <div class="deals-price">
+                            <p><span>$</span>10.85</p>
+                            <del>$14.85</del>
+                        </div>
+                        <a href="#" class="button">Add To Art</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================ MENU SECTION STARTS ================================================ -->
+        <section class="menu menu-two section">
+            <h2 class="section-title title-center">A Complimentary Cocktail, Coffee, Ice-Tea For You</h2>
+
+            <div class="menu-container container" id="grid">
+                <div class="menu-item">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/images/coof-img-1.png" alt="" class="menu-img">
+                    </div>
+
+                    <div class="menu-data">
+                        <span class="menu-grams">100 grams</span>
+                        <h3 class="menu-title">Rainbow Paradise Cocktail</h3>
+                        <span class="menu-price">$18.00</span>
+                        <ul class="menu-rating">
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                        </ul>
+                        <a href="#" class="menu-btn">
+                            <i class="ri-shopping-bag-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/images/coof-img-2.png" alt="" class="menu-img">
+                    </div>
+
+                    <div class="menu-data">
+                        <span class="menu-grams">100 grams</span>
+                        <h3 class="menu-title">Decorative Cold Cofee</h3>
+                        <span class="menu-price">$12.00</span>
+                        <ul class="menu-rating">
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                        </ul>
+                        <a href="#" class="menu-btn">
+                            <i class="ri-shopping-bag-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/images/coof-img-3.png" alt="" class="menu-img">
+                    </div>
+
+                    <div class="menu-data">
+                        <span class="menu-grams">100 grams</span>
+                        <h3 class="menu-title">Roasted Chicken Combo</h3>
+                        <span class="menu-price">$28.00</span>
+                        <ul class="menu-rating">
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                        </ul>
+                        <a href="#" class="menu-btn">
+                            <i class="ri-shopping-bag-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/images/coof-img-4.png" alt="" class="menu-img">
+                    </div>
+
+                    <div class="menu-data">
+                        <span class="menu-grams">100 grams</span>
+                        <h3 class="menu-title">Tasty Chicken Curry</h3>
+                        <span class="menu-price">$32.00</span>
+                        <ul class="menu-rating">
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                            <li><i class="ri-star-fill"></i></li>
+                        </ul>
+                        <a href="#" class="menu-btn">
+                            <i class="ri-shopping-bag-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================ RESERVATION SECTION STARTS ================================================ -->
+        <section class="reservation section container" id="reservation">
+            <span class="section-subtitle">GET IN TOUCH</span>
+            <h2 class="section-title">Reservation Table & Enjoy Dining Table</h2>
+
+            <div class="reservation-container" id="grid">
+                <div class="reservation-info">
+                    <div class="reservation-card">
+                        <span class="reservation-icon-wrapper">
+                            <img src="assets/images/mobile.svg" alt="" class="reservation-icon">
+                        </span>
+                        <div>
+                            <h3 class="reservation-card-title">For Bokking</h3>
+                            <span class="reservation-card-data">01 123 456 789</span>
+                        </div>
+                    </div>
+
+                    <div class="reservation-card">
+                        <span class="reservation-icon-wrapper">
+                            <img src="assets/images/envelope.svg" alt="" class="reservation-icon">
+                        </span>
+                        <div>
+                            <h3 class="reservation-card-title">For Private Dining</h3>
+                            <span class="reservation-card-data">info@foddie.com</span>
+                        </div>
+                    </div>
+
+                    <div class="reservation-card">
+                        <span class="reservation-icon-wrapper">
+                            <img src="assets/images/location.svg" alt="" class="reservation-icon">
+                        </span>
+                        <div>
+                            <h3 class="reservation-card-title">Location</h3>
+                            <span class="reservation-card-data">Karol Bagh, New Delhi, India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="reservation-form">
+                    <div class="reservation-form-div">
+                        <input type="text" placeholder="No of Guest" class="reservation-form-input">
+                    </div>
+
+                    <div class="reservation-form-group">
+                        <div class="reservation-form-div">
+                            <input type="text" placeholder="Full Name" class="reservation-form-input">
+                        </div>
+
+                        <div class="reservation-form-div">
+                            <input type="text" placeholder="Phone No" class="reservation-form-input">
+                        </div>
+                    </div>
+
+                    <div class="reservation-form-group">
+                        <div class="reservation-form-div">
+                            <input type="text" placeholder="mm/dd/yy" class="reservation-form-input">
+                        </div>
+
+                        <div class="reservation-form-div">
+                            <input type="text" placeholder="00:00 AM" class="reservation-form-input">
+                        </div>
+                    </div>
+
+                    <button class="button reservation-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- ================================================ GALLERY SECTION STARTS ================================================ -->
+        <section class="gallery">
+            <div class="gallery-container" id="grid">
+                <div class="gallery-item">
+                    <img src="assets/images/photo-gallery-1.jpg" alt="" class="gallery-img">
+
+                    <div class="gallery-hover"></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="assets/images/photo-gallery-2.jpg" alt="" class="gallery-img">
+
+                    <div class="gallery-hover"></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="assets/images/photo-gallery-3.jpg" alt="" class="gallery-img">
+
+                    <div class="gallery-hover"></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="assets/images/photo-gallery-4.jpg" alt="" class="gallery-img">
+
+                    <div class="gallery-hover"></div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="assets/images/photo-gallery-5.jpg" alt="" class="gallery-img">
+
+                    <div class="gallery-hover"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================================================ FOOTER SECTION STARTS ================================================ -->
+    <footer class="footer">
+        <div class="footer-container section container" id="footer-grid">
+            <div class="footer-content">
+                <a href="index.html" class="footer-logo">
+                    <img src="assets/images/logo.png" alt="" class="footer-logo-img">
+                </a>
+                <p class="footer-description">
+                    All produced by using fresh ingredients and serving up delicious food, every time. Including pizza
+                    and pasta dishes, as well as fresh salads, burgers, steaks, risottos and indulged desserts.
+                </p>
+                <h3 class="footer-title">Newsletter</h3>
+
+                <p class="newsletter-description">Subscribe and Fet Recent News and Updates.</p>
+
+                <div class="footer-subscribe">
+                    <input type="text" placeholder="Enter Your Email Address..." class="footer-input">
+                    <button class="button">Subscribe</button>
+                </div>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Contact Info</h3>
+
+                <dl class="footer-list">
+                    <dt>Mon - Thu:</dt>
+                    <dd>5:00 p.m. - 11:00 p.m.</dd>
+                    <dt>Friday:</dt>
+                    <dd>4:00 p.m. - 12:00 p.m.</dd>
+                    <dt>Festivals</dt>
+                    <dd>Open Full Day</dd>
+                </dl>
+
+                <div class="reservation-card">
+                    <span class="reservation-icon-wrapper">
+                        <img src="assets/images/mobile.svg" alt="" class="reservation-icon">
+                    </span>
+                    <div>
+                        <h3 class="reservation-card-title">For Bokking</h3>
+                        <span class="reservation-card-data">01 123 456 789</span>
+                    </div>
+                </div>
+
+                <div class="reservation-card">
+                    <span class="reservation-icon-wrapper">
+                        <img src="assets/images/envelope.svg" alt="" class="reservation-icon">
+                    </span>
+                    <div>
+                        <h3 class="reservation-card-title">For Private Dining</h3>
+                        <span class="reservation-card-data">info@foddie.com</span>
+                    </div>
+                </div>
+
+                <div class="reservation-card">
+                    <span class="reservation-icon-wrapper">
+                        <img src="assets/images/location.svg" alt="" class="reservation-icon">
+                    </span>
+                    <div>
+                        <h3 class="reservation-card-title">Location</h3>
+                        <span class="reservation-card-data">Karol Bagh, New Delhi, India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="footer-copy">
+            <span>&copy; 2023 Foodio Restaurant. </span> Made with <i class="ri-heart-fill" id="heart-icon"></i> by Dev
+            Sethi.
+        </p>
+    </footer>
+
+    <!-- ================================================ SCROLL UP ================================================ -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup-icon"></i>
+    </a>
+    <!-- =================================================================
+                                 SWIPER CDN JS
+    ================================================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- =================================================================
+                            Link Custom JS File
+    ================================================================== -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
